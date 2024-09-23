@@ -1,6 +1,6 @@
 import streamlit as st  
 import random  
-import hmac  
+import hmac
 
 # """  
 # This file contains the common components used in the Streamlit App.  
