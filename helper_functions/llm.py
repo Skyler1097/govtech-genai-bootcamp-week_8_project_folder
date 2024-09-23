@@ -1,10 +1,10 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 from openai import OpenAI
 import tiktoken
 
-if load_dotenv('.env'):
+if load_dotenv(find_dotenv()):
    # for local development
    OPENAI_KEY = os.getenv('OPENAI_API_KEY')
 else:
