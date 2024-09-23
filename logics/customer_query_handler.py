@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(1, '/Users/skyler97/Desktop/Programming/Gen_AI/GovTech Bootcamp/week_7_project_folder/helper_functions')
+# sys.path.insert(1, '/Users/skyler97/Desktop/Programming/Gen_AI/GovTech Bootcamp/week_7_project_folder/helper_functions')
 import llm # <--- This is the helper function that we have created 🆕
 import json
 
